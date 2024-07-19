@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
-	@GetMapping("/")
+	@GetMapping("/msg")
 	public String msg() {
 		return "Hello Welcome to SpringBoot";
 	}
